@@ -21,3 +21,17 @@
   --clr-text-black: #000000;
   --clr-text-light: #2C3E50;
 }
+
+body {
+  background-color: var(--clr-bg);
+  color: var(--clr-text-black);
+  font-size: 1rem;
+  font-family: var(--font-one);
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
