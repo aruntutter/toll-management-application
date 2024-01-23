@@ -14,7 +14,7 @@
 
 ## Links
 
-- Solution URL: [GitHub Repository](https://github.com/your-username/toll-management-app)
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/toll-management-application)
 - Live Demo: [Live Demo URL](https://your-toll-app-live-demo.com) *(Replace with your actual live demo URL)*
 
 ## Description
