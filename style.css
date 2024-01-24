@@ -197,3 +197,70 @@ span i {
   padding: 10px;
   font-size: 16px;
 }
+
+/* ADD TOLL */
+.form.add-toll {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 800px;
+}
+
+.form.add-toll h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form.add-toll form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form.add-toll label {
+  font-weight: 500;
+}
+
+.fare-details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.fare-details select,
+.fare-details input,
+.form.add-toll select,
+.form.add-toll input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.fare-details select {
+  cursor: pointer;
+}
+
+.fare-details input[type="text"],
+.form.add-toll input[type="text"] {
+  box-sizing: border-box;
+}
+
+.form.add-toll button {
+  width: 100%;
+  cursor: pointer;
+  background-color: #5E63BA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
