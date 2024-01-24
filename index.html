@@ -25,8 +25,8 @@
       <div class="input">
         <label>Toll Entries/Vehicle Entries</label>
         <div class="dropdown">
-          <i class="fas fa-filter"></i>
-          <div class="dropdown-content" id="dropdown-content">
+          <i class="fas fa-filter" id="filter-icon"></i>
+          <div class="dropdown-content dropdown-none" id="dropdown-content">
             <a href="#">All</a>
             <a href="#">Kappalur</a>
             <a href="#">Chengalpattu</a>
@@ -55,7 +55,7 @@
   <!-- Input Forms -->
   <!-- Add Vehicle -->
   <div class="form add-vehicle" id="add-vehicle-form">
-    <h2>Add New Entry</h2><span><i class="fa-solid fa-xmark"></i></span>
+    <h2>Add New Entry</h2><span><i class="fa-solid fa-xmark" id="cross"></i></span>
     <form>
       <label for="tollName">Select toll name*</label>
       <select required id="tollName" name="tollName">
@@ -82,7 +82,7 @@
 
   <!-- Add Toll -->
   <div class="form add-toll" id="add-toll-form">
-    <h2>Add New Toll</h2><span><i class="fa-solid fa-xmark"></i></span>
+    <h2>Add New Toll</h2><span><i class="fa-solid fa-xmark" id="cross-Two"></i></span>
     <form>
       <label for="tollName">Toll Name*</label>
       <input type="text" placeholder="Enter toll name">
