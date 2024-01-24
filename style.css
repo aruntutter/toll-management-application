@@ -133,8 +133,12 @@ h2 {
 }
 
 /* FORMS */
-.form.add-vehicle {
+.form {
   display: none;
+}
+
+/* Add Vehicle */
+.add-vehicle {
   width: 600px;
   position: fixed;
   top: 50%;
@@ -147,7 +151,7 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.form.add-vehicle h2 {
+.add-vehicle h2 {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -166,29 +170,29 @@ span i {
   cursor: pointer;
 }
 
-.form.add-vehicle form {
+.add-vehicle form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.form.add-vehicle label {
+.add-vehicle label {
   font-weight: 500;
 }
 
-.form.add-vehicle select,
-.form.add-vehicle input {
+.add-vehicle select,
+.add-vehicle input {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.form.add-vehicle input[type="text"] {
+.add-vehicle input[type="text"] {
   box-sizing: border-box;
 }
 
-.form.add-vehicle input[type="submit"] {
+.add-vehicle input[type="submit"] {
   cursor: pointer;
   background-color: #5E63BA;
   color: white;
@@ -199,8 +203,7 @@ span i {
 }
 
 /* ADD TOLL */
-.form.add-toll {
-  display: none;
+.add-toll {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -213,18 +216,18 @@ span i {
   width: 800px;
 }
 
-.form.add-toll h2 {
+.add-toll h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.form.add-toll form {
+.add-toll form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.form.add-toll label {
+.add-toll label {
   font-weight: 500;
 }
 
@@ -236,8 +239,8 @@ span i {
 
 .fare-details select,
 .fare-details input,
-.form.add-toll select,
-.form.add-toll input {
+.add-toll select,
+.add-toll input {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -249,11 +252,11 @@ span i {
 }
 
 .fare-details input[type="text"],
-.form.add-toll input[type="text"] {
+.add-toll input[type="text"] {
   box-sizing: border-box;
 }
 
-.form.add-toll button {
+.add-toll button {
   width: 100%;
   cursor: pointer;
   background-color: #5E63BA;

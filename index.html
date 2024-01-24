@@ -37,9 +37,9 @@
       </div>
 
       <div class="actions">
-        <h4>Add vehicle entry</h4>
-        <h4>Add new toll</h4>
-        <h4>View all tolls</h4>
+        <h4 id="add-vehicle-entry">Add vehicle entry</h4>
+        <h4 id="add-new-toll">Add new toll</h4>
+        <h4 id="view-all-tolls">View all tolls</h4>
       </div>
     </div>
 
@@ -54,7 +54,7 @@
 
   <!-- Input Forms -->
   <!-- Add Vehicle -->
-  <div class="form add-vehicle">
+  <div class="form add-vehicle" id="add-vehicle-form">
     <h2>Add New Entry</h2><span><i class="fa-solid fa-xmark"></i></span>
     <form>
       <label for="tollName">Select toll name*</label>
@@ -81,7 +81,7 @@
   </div>
 
   <!-- Add Toll -->
-  <div class="form add-toll">
+  <div class="form add-toll" id="add-toll-form">
     <h2>Add New Toll</h2><span><i class="fa-solid fa-xmark"></i></span>
     <form>
       <label for="tollName">Toll Name*</label>
