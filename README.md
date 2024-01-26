@@ -1,61 +1,64 @@
 # Toll Management Application
 
+## Overview
+
+The Toll Management Application is a web-based tool designed to facilitate the management of toll entries and vehicle details. It allows users to add new tolls, record vehicle entries, and view toll-related information. The application is built using HTML, CSS, and JavaScript.
+
 ## Table of Contents
 
 - [Links](#links)
-- [Description](#description)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Links
 
 - Solution URL: [GitHub Repository](https://github.com/aruntutter/toll-management-application)
-- Live Demo: [Live Demo URL](https://your-toll-app-live-demo.com) *(Replace with your actual live demo URL)*
-
-## Description
-
-The Toll Management Application is a web-based solution designed to streamline toll collection and management processes. It provides an efficient way to handle toll transactions, monitor traffic, and generate reports for better decision-making.
+- Live Demo: [Live Demo URL](https://fanciful-froyo-9f09a0.netlify.app/)
 
 ## Features
 
-- User-friendly interface for toll booth operators and administrators.
-- Secure and seamless toll transaction processing.
-- Real-time monitoring of toll booth activity.
-- Comprehensive reporting system for analytics.
+- **Filter Toll Entries/Vehicle Entries:** Users can filter toll entries or vehicle entries based on different tollgate locations.
 
-## Technologies Used
+- **Add Vehicle Entry:** Users can add new vehicle entries by selecting the toll name, vehicle type, entering the vehicle number, and specifying the tariff.
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Authentication: JWT (JSON Web Tokens)
+- **Add New Toll:** Admin users can add new tolls, including the toll name and fare details for different vehicle types and journey types.
 
-## Installation
+- **View All Tolls:** Users can toggle between viewing all tolls and vehicle entries, providing a comprehensive overview.
 
-1. Clone the repository: `git clone https://github.com/your-username/toll-management-app.git`
-2. Navigate to the project directory: `cd toll-management-app`
-3. Install dependencies: `npm install`
-4. Set up the MongoDB database and update the connection details in the configuration files.
-5. Run the application: `npm start`
+## Getting Started
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/aruntutter/toll-management-application
+   ```
+
+2. Open the [index.html](./index.html) file in your preferred web browser.
 
 ## Usage
 
-1. Open the application in a web browser.
-2. Login with your credentials.
-3. Perform toll transactions, monitor traffic, and access reports.
+- Use the dropdown filter to select specific tollgate locations or view all entries.
+- Click on "Add vehicle entry" to record a new vehicle entry with relevant details.
 
-## Screenshots
+- Click on "Add new toll" to add a new toll, specifying the toll name and fare details.
 
-Include screenshots of the application to showcase its interface and features.
+- Toggle between viewing all tolls and vehicle entries using the "View all tolls" button.
+
+## Project Structure
+
+- **[index.html](./index.html):** The main HTML file containing the structure of the web page.
+
+- **[style.css](./style.css):** The stylesheet providing the visual styling for the application.
+
+- **[script.js](./script.js):** The JavaScript file handling dynamic interactions and functionality.
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvements or find bugs, feel free to open an issue or submit a pull request.
+Feel free to contribute to the project by submitting [issues](https://github.com/aruntutter/toll-management-application/issues) or [pull requests](https://github.com/aruntutter/toll-management-application/pulls). Follow the standard coding conventions and provide detailed information about your contributions.
 
 ## License
 
