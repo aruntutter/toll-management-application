@@ -22,7 +22,7 @@
     <h2>Toll Management Application</h2>
 
     <div class="input-actions">
-      <div class="input">
+      <div class="input" id="filter-input">
         <label>Toll Entries/Vehicle Entries</label>
         <div class="dropdown">
           <i class="fas fa-filter" id="filter-icon"></i>
@@ -39,16 +39,16 @@
       <div class="actions">
         <h4 id="add-vehicle-entry">Add vehicle entry</h4>
         <h4 id="add-new-toll">Add new toll</h4>
-        <h4 id="view-all-tolls">View all tolls</h4>
+        <h4 id="view-all-tolls" onclick="toggleView()">View all tolls</h4>
       </div>
     </div>
 
-    <div class="output-title">
-      <h4>VEHICLE TYPE</h4>
-      <h4>VEHICLE NUMBER</h4>
-      <h4>DATE/TIME</h4>
-      <h4>TOLL NAME</h4>
-      <h4>TARIFF</h4>
+    <div class="output-title" id="output-title">
+      <h4 id="toll-name">VEHICLE TYPE</h4>
+      <h4 id="vehicle-name">VEHICLE NUMBER</h4>
+      <h4 id="lcv">DATE/TIME</h4>
+      <h4 id="truck-bus">TOLL NAME</h4>
+      <h4 id="heavy-vehicle">TARIFF</h4>
     </div>
   </div>
 
